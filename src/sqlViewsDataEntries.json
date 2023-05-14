@@ -1,0 +1,14 @@
+{
+    "sqlViews": [
+        {
+            "name": "Completeness [ A ne pas supprimer ]",
+            "id": "MTGO53pcrit",
+            "sqlQuery": "SELECT \n\"public\".completedatasetregistration.storedby as username,\n\"public\".organisationunit.uid as orgunit\nFROM\n\"public\".completedatasetregistration\nINNER JOIN \"public\".organisationunit ON \"public\".completedatasetregistration.sourceid = \"public\".organisationunit.organisationunitid\nWHERE \"public\".completedatasetregistration.\"date\" between '${dateDebut}' and '${dateFin}'\n\n",
+            "publicAccess": "rwrw----",
+            "type": "QUERY",
+            "externalAccess": false,
+            "cacheStrategy": "RESPECT_SYSTEM_SETTING",
+            "favorite": false
+        }
+    ]
+}

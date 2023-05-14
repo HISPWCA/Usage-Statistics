@@ -1,0 +1,6 @@
+.sidebar {
+    flex: 0 0 220px;
+    background-color: var(--colors-white);
+    padding: var(--spacers-dp16);
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+}

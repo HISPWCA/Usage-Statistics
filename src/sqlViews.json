@@ -1,0 +1,14 @@
+{
+    "sqlViews": [
+        {
+            "name": "Datastatistics [ A ne pas supprimer ]",
+            "id": "tLsJ3lytSwI",
+            "sqlQuery": "SELECT * FROM \"public\".datastatisticsevent\nWHERE  \"public\".datastatisticsevent.\"timestamp\" between '${dateDebut}' and '${dateFin}' \nORDER BY \"public\".datastatisticsevent.\"timestamp\" DESC",
+            "publicAccess": "rwrw----",
+            "type": "QUERY",
+            "externalAccess": false,
+            "cacheStrategy": "RESPECT_SYSTEM_SETTING",
+            "favorite": false
+        }
+    ]
+}

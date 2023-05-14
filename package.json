@@ -1,0 +1,53 @@
+{
+  "name": "Usage-Statistics",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@dhis2/app-runtime": "^3.4.3",
+    "@dhis2/d2-i18n": "^1.1.0",
+    "@dhis2/ui": "^8.4.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^4.19.4",
+    "dayjs": "^1.11.0",
+    "moment": "^2.29.2",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-big-calendar": "^0.40.1",
+    "react-custom-scrollbars-2": "^4.5.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-scripts": "5.0.0",
+    "react-scrollbars-custom": "^4.0.27",
+    "styled-jsx": "^5.0.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "prod": "react-scripts build && cp manifest.webapp build/ && cd build/ && zip -r Usage-Statistics . && cp ./Usage-Statistics.zip ../ && cd .. && rm -r build/ && mkdir build/ && mv ./Usage-Statistics.zip build/ && clear ",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
