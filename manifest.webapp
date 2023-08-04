@@ -1,0 +1,22 @@
+{
+	"version": "1.0.0",
+	"name": "Usage Statistics",
+	"description": "Usage Statistics",
+	"icons": {
+		"16": "monitor.jpg",
+		"48": "monitor.jpg",
+		"128": "monitor.jpg"
+	},
+    "developer": {
+    "url": "https://hispwca.org",
+    "company": "HISP West & Central Africa",
+    "email": "devs@hispwca.org"
+  },
+	"activities": {
+		"dhis": {
+			"href": "*"
+		}
+	},
+	"launch_path": "index.html",
+	"default_locale": "en"
+}

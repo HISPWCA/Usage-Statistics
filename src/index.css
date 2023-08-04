@@ -1,0 +1,141 @@
+* {
+  font-size: 13px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.ant-table-cell {
+  font-size: 13px !important;
+}
+
+.ant-table-column-title {
+  font-size: 13px !important;
+}
+
+
+/* .ant-select.ant-select-open {
+  z-index: 1070 !important;
+} */
+
+.ant-menu-horizontal {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-scroll-number-only-unit {
+  color: #fff !important;
+}
+
+.ant-form-item-label {
+  padding: 0 !important;
+
+}
+
+.ant-form-item {
+  margin-bottom: 10px !important;
+}
+
+
+.my-spinner {
+  /* Spinner size and color */
+  width: 1.3rem;
+  height: 1.3rem;
+  border-top-color: #444;
+  border-left-color: #444;
+
+  /* Additional spinner styles */
+  animation: spinner 400ms linear infinite;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container-single-box {
+  min-height: 85px;
+  min-width: 260px;
+  transition: 0.4s all ease-in-out;
+  margin-top: 10px;
+}
+
+.my-shadow {
+  box-shadow: rgb(64 75 90 / 20%) 0px 0px 1px 0px,
+    rgb(64 75 90 / 28%) 0px 2px 1px 0px;
+}
+
+.number-link {
+  height: 100%;
+  width: 100%;
+}
+
+.number-link:hover {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* Animation styles */
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.my-spinner.spinner-white {
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+
+
+.my-custom-table .ant-table-thead>tr>th {
+  background-color: #469d89 !important;
+  background-color: #00695C !important;
+  /* background-color: #f1f1f1 !important; */
+  color: white !important;
+  /* color: black !important; */
+}
+
+
+.ant-table-cell {
+  font-size: 13px !important;
+  padding: 5px !important;
+}
+
+.ant-table-column-title {
+  font-size: 13px !important;
+  padding: 5px !important;
+}
+
+
+.ant-table-column-title {
+  z-index: 0 !important;
+}
+
+.bg-result{
+  background-color: rgb(245, 222, 162);
+}
